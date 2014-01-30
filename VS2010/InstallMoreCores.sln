@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InstallMoreCores", "InstallMoreCores\InstallMoreCores.vcxproj", "{CF6D9D35-38A2-4DDB-894F-7524FD368D19}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "2 Cores", "2 Cores\2 Cores.vdproj", "{CB153094-3CC4-4030-9FCA-2FE34215DD46}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CF6D9D35-38A2-4DDB-894F-7524FD368D19} = {CF6D9D35-38A2-4DDB-894F-7524FD368D19}
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "4 Cores", "4 Cores\4 Cores.vdproj", "{35DA6127-5E29-454B-9526-75E0B9D61D8F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CF6D9D35-38A2-4DDB-894F-7524FD368D19} = {CF6D9D35-38A2-4DDB-894F-7524FD368D19}
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "8 Cores", "8 Cores\8 Cores.vdproj", "{F116F905-2E5C-44F4-94A0-2A07D223D398}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CF6D9D35-38A2-4DDB-894F-7524FD368D19} = {CF6D9D35-38A2-4DDB-894F-7524FD368D19}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF6D9D35-38A2-4DDB-894F-7524FD368D19}.Release|Win32.ActiveCfg = Release|Win32
+		{CF6D9D35-38A2-4DDB-894F-7524FD368D19}.Release|Win32.Build.0 = Release|Win32
+		{CF6D9D35-38A2-4DDB-894F-7524FD368D19}.Release|x64.ActiveCfg = Release|x64
+		{CF6D9D35-38A2-4DDB-894F-7524FD368D19}.Release|x64.Build.0 = Release|x64
+		{CB153094-3CC4-4030-9FCA-2FE34215DD46}.Release|Win32.ActiveCfg = Release
+		{CB153094-3CC4-4030-9FCA-2FE34215DD46}.Release|Win32.Build.0 = Release
+		{CB153094-3CC4-4030-9FCA-2FE34215DD46}.Release|x64.ActiveCfg = Release
+		{CB153094-3CC4-4030-9FCA-2FE34215DD46}.Release|x64.Build.0 = Release
+		{35DA6127-5E29-454B-9526-75E0B9D61D8F}.Release|Win32.ActiveCfg = Release
+		{35DA6127-5E29-454B-9526-75E0B9D61D8F}.Release|Win32.Build.0 = Release
+		{35DA6127-5E29-454B-9526-75E0B9D61D8F}.Release|x64.ActiveCfg = Release
+		{35DA6127-5E29-454B-9526-75E0B9D61D8F}.Release|x64.Build.0 = Release
+		{F116F905-2E5C-44F4-94A0-2A07D223D398}.Release|Win32.ActiveCfg = Release
+		{F116F905-2E5C-44F4-94A0-2A07D223D398}.Release|Win32.Build.0 = Release
+		{F116F905-2E5C-44F4-94A0-2A07D223D398}.Release|x64.ActiveCfg = Release
+		{F116F905-2E5C-44F4-94A0-2A07D223D398}.Release|x64.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
